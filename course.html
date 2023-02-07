@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Course - Universe University Official Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/93d5c633ad.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="logito3.png">
+</head>
+<body>
+        <!---------HEADER--------->
+
+        <section class="sub-header courses-header">
+            <nav>
+                <a href="index.html"><img src="logofinal.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html" id="active">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+        </section>
+
+        <!---------- COURSE --------->
+
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illum ratione facilis unde voluptatum dignissimos reiciendis repellendus ipsa consectetur, alias nesciunt illo repudiandae explicabo sequi, cupiditate natus eaque nulla</p>
+                </div>
+
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illum ratione facilis unde voluptatum dignissimos reiciendis repellendus ipsa consectetur, alias nesciunt illo repudiandae explicabo sequi, cupiditate natus eaque null</p>
+                </div>
+
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore illum ratione facilis unde voluptatum dignissimos reiciendis repellendus ipsa consectetur, alias nesciunt illo repudiandae explicabo sequi, cupiditate natus eaque nulla</p>
+                </div>
+            </div>
+        </section>
+
+        <!----------facilities--------->
+
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="library.png">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque arctus.</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="basketball.png">
+                    <h3>Largest Basket Court</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque arctus.</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque arctus.</p>
+                </div>
+            </div>
+        </section>
+
+        <!---------- FOOTER --------->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum vel molestiae deleniti, veniam <br> porro quam rerum reum porque somos corrupti.</p>
+            <div class="icons">
+                <a href="https://instagram.com" target="_blank"><i class="fa fa-solid fa-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa fa-solid fa-twitter"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fa fa-solid fa-facebook"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fa fa-solid fa-linkedin"></i></a>
+            </div>
+            <p>Made by <i class="fa fa-solid fa-face-smile-wink"></i> <a href="https://instagram.com/maurobianchi7" target="_blank">Maruchoo</a></p>
+        </section>
+
+    <!------------JavaScript para el menu desplegable----------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
